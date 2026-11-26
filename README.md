@@ -1,3 +1,7 @@
+<img src="https://github.com/user-attachments/assets/0f41b696-bac9-4401-be43-9644a8a92d5a" width="30%" />
+<img src="https://github.com/user-attachments/assets/db2e879c-67a7-43a6-ad05-37ab92953bf2" width="30%" />
+<img src="https://github.com/user-attachments/assets/c25019c4-f888-44ff-a99c-58cb486b96ca" width="30%" />
+
 # Salati
 
 Salati is a prayer-tracking app. Create an account, mark each of the five daily prayers as on time, late, or missed, and review your progress in a calendar. The calendar shows daily progress with colors, while the dashboard tracks prayer activity, monthly averages, and streaks. Gym activity can also affect a day's color.
