@@ -1,0 +1,85 @@
+### GET user
+GET http://localhost:5220/user
+
+
+### GET a user by ID
+GET http://localhost:5220/user/1
+
+
+### CREATE user
+POST http://localhost:5220/user
+Content-Type: application/json
+
+{
+  "name": "Ilyes",
+  "email": "ilyes@example.com",
+  "lastName": "Chrif",
+  "password": "123456"
+}
+
+
+### LOGIN
+POST http://localhost:5220/user/login
+Content-Type: application/json
+
+{
+  "email": "ilyes@example.com",
+  "password": "123456"
+}
+
+
+### GET a specific day
+GET http://localhost:5220/api/prayer/1/2026-11-26
+
+
+### GET monthly prayers
+GET http://localhost:5220/api/prayer/1/month/2026/11
+
+
+### CREATE a prayer day (automatically creates 5 pending prayers)
+POST http://localhost:5220/api/prayer/1/2026-11-26
+
+
+### UPDATE Fajr status to Completed
+PUT http://localhost:5220/api/prayer/1/2026-11-26/Fajr
+Content-Type: application/json
+
+{
+  "status": 1
+}
+
+
+### UPDATE Dhuhr status to Completed
+PUT http://localhost:5220/api/prayer/1/2026-11-26/Dhuhr
+Content-Type: application/json
+
+{
+  "status": 1
+}
+
+
+### UPDATE Asr status to Missed
+PUT http://localhost:5220/api/prayer/1/2026-11-26/Asr
+Content-Type: application/json
+
+{
+  "status": 2
+}
+
+
+### UPDATE Maghrib status to Completed
+PUT http://localhost:5220/api/prayer/1/2026-11-26/Maghrib
+Content-Type: application/json
+
+{
+  "status": 1
+}
+
+
+### UPDATE Isha status to Pending
+PUT http://localhost:5220/api/prayer/1/2026-11-26/Isha
+Content-Type: application/json
+
+{
+  "status": 0
+}

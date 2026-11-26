@@ -1,0 +1,25 @@
+# Node / React generated files
+**/node_modules/
+**/build/
+**/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# .NET generated files
+**/bin/
+**/obj/
+**/TestResults/
+*.user
+*.suo
+
+# Local environment and secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/appsettings.Development.json
+**/secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db

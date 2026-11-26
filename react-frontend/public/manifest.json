@@ -1,0 +1,25 @@
+{
+  "short_name": "Salati",
+  "name": "Salati",
+  "icons": [
+    {
+      "src": "salati.png",
+      "type": "image/png",
+      "sizes": "1254x1254"
+    },
+    {
+      "src": "salati.png",
+      "type": "image/png",
+      "sizes": "1254x1254"
+    },
+    {
+      "src": "salati.png",
+      "type": "image/png",
+      "sizes": "1254x1254"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
